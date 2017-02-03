@@ -1,0 +1,13 @@
+When an admin logs in ctx.session().get("email") method is called to verify that
+the admin's details are correct.
+
+The admin can then click on the addProduct button which will activate the addProduct
+method in the products.scala.html class.
+
+Once the admin is in the addProduct class they will be able to add in the relevant fields
+such as product name, description, stock etc. Once the admin clicks the addProductSubmit button
+their entries will be checked for validation by the addProductForm
+which will ensure that the all relevant fields are filled out correctly with the relevant
+data types filled out correctly.
+
+The product will then be added to the database successfully once all fields are filled out correctly.
